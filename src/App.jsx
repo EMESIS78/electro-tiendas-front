@@ -6,7 +6,7 @@ import { SiteHeader } from "@/components/site-header"
 import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar"
 
 import data from "./data.json"
- 
+
 function App() {
   return (
     <SidebarProvider>
@@ -28,5 +28,5 @@ function App() {
     </SidebarProvider>
   )
 }
- 
+
 export default App
